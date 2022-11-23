@@ -2,5 +2,5 @@ package org.example.warehouse;
 
 public abstract class Product {
 
-    boolean isbroken;
+    private boolean isTired;
 }

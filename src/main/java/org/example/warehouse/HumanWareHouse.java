@@ -1,4 +1,8 @@
 package org.example.warehouse;
 
-public class HumanWareHouse {
+import org.springframework.stereotype.Component;
+
+@Component
+public class HumanWareHouse implements Worker{
+
 }
